@@ -1,33 +1,28 @@
 {
-  "name": "www",
+  "name": "node",
   "version": "1.0.0",
-  "private": true,
   "main": "index.js",
-  "dependencies": {
+  "repository": "https://github.com/MarlomSouza/webpacklearning.git",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "7",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
     "css-loader": "^1.0.0",
-    "lodash": "^4.17.11",
     "node-sass": "^4.9.3",
     "sass-loader": "^7.1.0",
-    "style-loader": "^0.23.0"
-  },
-  "devDependencies": {
-    "babel-loader": "^8.0.2",
-    "babel-preset-es2015": "^6.24.1",
-    "webpack": "^4.18.0",
-    "webpack-cli": "^3.1.0"
+    "style-loader": "^0.23.0",
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack -p",
-    "build_": "webpack",
-    "watch": "webpack --watch"
+    "dev": "webpack-dev-server --hot --inline"
   },
-  "repository": "git+https://github.com/MarlomSouza/webpacklearning.git",
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MarlomSouza/webpacklearning/issues"
-  },
-  "homepage": "https://github.com/MarlomSouza/webpacklearning#readme",
-  "description": ""
+  "dependencies": {
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1"
+  }
 }
