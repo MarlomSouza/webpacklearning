@@ -1,12 +1,12 @@
 {
   "name": "www",
   "version": "1.0.0",
-  "description": "",
   "private": true,
   "main": "index.js",
   "dependencies": {
     "css-loader": "^1.0.0",
     "lodash": "^4.17.11",
+    "node-sass": "^4.9.3",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0"
   },
@@ -22,14 +22,12 @@
     "build_": "webpack",
     "watch": "webpack --watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MarlomSouza/webpacklearning.git"
-  },
+  "repository": "git+https://github.com/MarlomSouza/webpacklearning.git",
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MarlomSouza/webpacklearning/issues"
   },
-  "homepage": "https://github.com/MarlomSouza/webpacklearning#readme"
+  "homepage": "https://github.com/MarlomSouza/webpacklearning#readme",
+  "description": ""
 }
