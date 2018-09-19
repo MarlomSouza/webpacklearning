@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from "react-dom";
-import { HelloWorld } from './components/HelloWorld';
 
 import './styles/app.scss';
+import { Pagina } from './pagina';
 
 ReactDOM.render(
-    <HelloWorld />,
+    <Pagina />,
     document.getElementById('app')
 )
